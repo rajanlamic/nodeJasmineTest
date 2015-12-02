@@ -1,0 +1,17 @@
+{
+  "name": "nodejasminetest",
+  "version": "1.0.0",
+  "description": "Node Jasmine Test",
+  "main": "Gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jasmine": "^2.2.1",
+    "jasmine": "^2.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rajan",
+  "license": "ISC"
+}
