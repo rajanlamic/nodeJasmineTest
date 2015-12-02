@@ -3,6 +3,12 @@
  */
 var gulp = require('gulp');
 var jasmine = require('gulp-jasmine');
+var server = require('gulp-express');
+
+gulp.task('server', function() {
+    server.run(['app.js']);
+    gulp.watch(['app.js'], server.notify);
+});
 
 gulp.task('tdd', function () {
     return gulp.src('spec/*.js')
